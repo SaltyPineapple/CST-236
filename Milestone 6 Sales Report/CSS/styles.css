@@ -1,0 +1,108 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#productArea{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 'product';
+    grid-gap: 10px;
+}
+
+.card{
+    border-style: solid 1px black;
+
+    padding: 15px;
+    margin: 20px;
+    grid-area: 'product';
+    text-align: center;
+    
+}
+
+.card img{
+    height: 40px;
+    width: 40px;
+}
+
+
+h1 {
+    color: blue;
+}
+
+.SearchForm {
+    text-align: left;
+    width: 100%;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+    
+}
+
+.nav {
+    background-color: darkgray;
+    padding: 10px;
+    display: block;
+    /* color: white; */
+}
+
+ul{
+    list-style-type: none;
+    text-align: right;
+    width: auto;
+}
+
+ul li{
+    display: inline;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color: blue;
+    transition: all .5s ease-in-out;
+    
+}
+
+ul li a:hover{
+    background-color: white;
+    color: darkgray;
+    
+}
+.tabs {
+    margin: auto;
+    padding-top: 10px;
+}
+
+.tabulate {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    /* margin: 5px; */
+    transition: all .5s ease-in-out;
+    text-decoration: none;
+}
+
+.tabulate:hover {
+    background-color: white;
+    color: blue;
+}
+
+.button{
+    margin-top: 10px;
+}
+
+.button a {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    
+    transition: all .5s ease-in-out;
+    text-decoration: none;
+}
+
+.button a:hover {
+    background-color: white;
+    color: blue;
+}
