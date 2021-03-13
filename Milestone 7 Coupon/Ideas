@@ -1,0 +1,19 @@
+to select all product
+
+have array of the product
+function will return the product in array form
+access each item within the html card area
+
+call the function for each spot
+have loop to loop through products
+
+
+
+For milestone 3:
+
+create administration page to edit and delete users and edit, add, and delete products.
+Will have to now incorporate the user roles
+
+Will need to create new table in DB for admins
+
+
